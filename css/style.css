@@ -1,0 +1,21 @@
+body {
+  background-color: white;
+  height: 1000px; }
+
+#nav-top-wrapper {
+  float: left; }
+  #nav-top-wrapper nav {
+    height: 56px;
+    background-color: rgba(77, 182, 172, 0.9); }
+    #nav-top-wrapper nav a {
+      -webkit-border-radius: 10%;
+              border-radius: 10%;
+      color: black !important; }
+
+main .img-wrapper {
+  width: 100%;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  height: 300px;
+  width: 300px; }
