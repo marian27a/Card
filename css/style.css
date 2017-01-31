@@ -12,6 +12,9 @@ body {
               border-radius: 10%;
       color: black !important; }
 
+main .parallax-container {
+  height: 680px !important; }
+
 main .img-wrapper {
   width: 100%;
   overflow: hidden;
