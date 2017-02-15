@@ -5,7 +5,7 @@ body {
 #nav-top-wrapper {
   float: left; }
   #nav-top-wrapper nav {
-    height: 56px;
+    height: 64px;
     background-color: rgba(77, 182, 172, 0.9); }
     #nav-top-wrapper nav a {
       -webkit-border-radius: 10%;
@@ -23,24 +23,33 @@ main .img-wrapper {
   height: 300px;
   width: 300px; }
 
-main #contacts #links li {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-  background-color: #b2ebf2;
-  float: left;
-  -webkit-border-radius: 50%;
-          border-radius: 50%; }
-  main #contacts #links li img {
-    width: 40px;
-    height: 40px; }
+main #contacts ul {
+  display: inline-block; }
 
-main #contacts #links li:hover {
-  background-color: #26c6da; }
+main #contacts #links {
+  margin: 0px; }
+  main #contacts #links li {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: #b2ebf2;
+    float: left;
+    -webkit-border-radius: 50%;
+            border-radius: 50%; }
+    main #contacts #links li img {
+      width: 40px;
+      height: 40px; }
+    main #contacts #links li .git {
+      padding-bottom: 8px; }
+  main #contacts #links li:hover {
+    background-color: #4dd0e1; }
 
 main #contacts h5 {
   display: inline-block;
   margin-right: 10px; }
+
+main #contacts span {
+  font-size: 20px; }
 
 main #contacts .number:before {
   content: "";
@@ -50,3 +59,6 @@ main #contacts .number:before {
   height: 18px;
   background: url(../img/cont-number.png) no-repeat;
   vertical-align: middle; }
+
+.page-footer {
+  padding-top: 0px !important; }
